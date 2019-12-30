@@ -7,7 +7,9 @@ body{
 	font-weight:100;
 
 }
-
+#MainNavbar #active{
+	color:#EA1C2C;
+}
 #MainNavbar .nav-link{
 	color:white;
 }
