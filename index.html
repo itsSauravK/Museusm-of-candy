@@ -28,7 +28,7 @@
       <div class="collapse navbar-collapse mr-auto" id="navlinks">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="#" class="nav-link">HOME</a>
+            <a href="#secondSec" class="nav-link">HOME</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">ABOUT</a>
@@ -63,12 +63,82 @@
       </div>
 
     </section>
+    <section id="secondSec" class="container-fluid px-0 content">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-2 order-md-1" >
+          <img src="imgs/milk.png" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2 ">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 mb-5 mb-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+          <img src="imgs/lolli_icon.png" class="d-none d-lg-inline">
+          <p class="lead">ipsum 30
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet mattis augue. Proin quis molestie nibh, hendrerit hendrerit sem. Donec vehicula et est et elementum. Sed risus neque, fermentum non pellentesque quis, finibus a eros. Pellentesque ornare sapien orci, nec fringilla nisl accumsan non. 
+             </p>
+            </div>
+          </div>
 
+        </div>
+      </div>
+    </section>
+
+    <section id="secondSec" class="container-fluid px-0 content">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-2" >
+          <img src="imgs/gumball.png" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-center order-1">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 mb-5 mb-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+          <img src="imgs/lolli_icon.png" class="d-none d-lg-inline">
+          <p class="lead">ipsum 30
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet mattis augue. Proin quis molestie nibh, hendrerit hendrerit sem. Donec vehicula et est et elementum. Sed risus neque, fermentum non pellentesque quis, finibus a eros. Pellentesque ornare sapien orci, nec fringilla nisl accumsan non. 
+             </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="secondSec" class="container-fluid px-0 content">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-2 order-md-1" >
+          <img src="imgs/sprinkles.png" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 mb-5 mb-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+          <img src="imgs/lolli_icon.png" class="d-none d-lg-inline">
+          <p class="lead">ipsum 30
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet mattis augue. Proin quis molestie nibh, hendrerit hendrerit sem. Donec vehicula et est et elementum. Sed risus neque, fermentum non pellentesque quis, finibus a eros. Pellentesque ornare sapien orci, nec fringilla nisl accumsan non. 
+             </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <script type="text/javascript">
+        $(function(){
+          $(document).scroll(function(){
+            var $nav= $("#MainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop()> $nav.height());
+
+          })
+        })
+
+
+
+    </script>
   </body>
 </html>
